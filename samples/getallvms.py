@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from pyVim import connect
 from pyVmomi import vim, vmodl
-content = connect.SmartConnect(host="vCenter.cc.cs.nctu.edu.tw",
-                               user="vsapi@vsphere.local",
+content = connect.SmartConnect(host="<>",
+                               user="vsapi",
                                pwd="vsapiVSAPI",
                                port=int("443"))
 containerView = content.viewManager.CreateContainerView(
